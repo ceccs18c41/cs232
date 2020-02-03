@@ -1,0 +1,90 @@
+Script started on Monday 03 February 2020 02:37:16 PM IST
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ ls
+work.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ ls-l
+ls-l: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ ls-ltr
+ls-ltr: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ mank[K alias
+No manual entry for alias
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ cat>ab.xt[K[Ktxt
+najeeb 
+vishnu
+jalal
+densil
+saua rav
+^Z
+[1]+  Stopped                 cat > ab.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort n ab.txt
+sort: open failed: n: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort[K[K[K[Kcat [K>n.txt
+^[[E      ^[[E    5
+8
+3
+0
+2
+74
+7
+5
+9
+4
+^Z
+[2]+  Stopped                 cat > n.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort [K-n n.txt
+sort-n: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort n n.txt
+sort: open failed: n: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sot[Krt n.txt
+0
+2
+3
+4
+5
+5
+7
+74
+8
+9
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort k7ab[K\[K[K ab,[K,[K.txt
+sort: open failed: k7: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ cut ab.txt
+cut: you must specify a list of bytes, characters, or fields
+Try `cut --help' for more information.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ cat bc[K[K[K>bc.txt
+abc
+fgrr
+fgf
+gh
+^Z
+[3]+  Stopped                 cat > bc.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ psate[K[K[Ka[K[Kaste ab.txt bc.txt
+najeeb 	abc
+vishnu	fgrr
+jalal	fgf
+densil	gh
+saurav	
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ join ab.txt bc.txt
+join: bc.txt:3: is not sorted: fgf
+join: ab.txt:3: is not sorted: jalal
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ sort ab.txt
+densil
+jalal
+najeeb 
+saurav
+vishnu
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ soe[Krt bc.txt
+abc
+fgf
+fgrr
+gh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ join ab.txt bc.txt
+join: bc.txt:3: is not sorted: fgf
+join: ab.txt:3: is not sorted: jalal
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ ge[Krep ""a"f"g"f"[1P"[1P"[1P"[1P"f"g"f"[C bc.txt
+[01;31m[Kfgf[m[K
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ grep najeeb""najeeb"[C[C[C[C[C[C[C ab./txt[K[K[K[Ktxt
+[01;31m[Knajeeb[m[K 
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ cut ab.txt
+cut: you must specify a list of bytes, characters, or fields
+Try `cut --help' for more information.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232$ cut naj[K[K[K""n"a"j"e"e"b" "[C[1P"[C ab.txt

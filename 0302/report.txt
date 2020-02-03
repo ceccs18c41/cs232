@@ -1,0 +1,119 @@
+CEC CS 18 c41
+ 
+NAJEEB
+
+
+--------------------------------
+#1: linux commands
+---------------------------------
+
+ mkdir ceccs18c41
+     cd ceccs18c41
+     mkdir cs232
+     cd cs232
+     script work.txt
+     ls
+     sort
+     script work.txt
+     cd ceccs18c41
+     cd cs232
+        
+     join --help
+     join f f
+     if config;  clear()\
+     cd ceccs18c41
+     cd cs232
+     script work.text
+     sudo apt get install firefox
+     su lab2
+     cd ceccs18c41
+     cd cs232
+     script work.txt
+     ls
+     ls-l
+     ls-lt
+    sort nk7 fn
+     history
+     paste
+     exit
+     history
+     exit
+     sudo apt-get install ubuntu
+     cd ceccs18c41
+     cd cs232
+     script work.txt
+     cd ceccs18c41
+    cd cs232
+     script work.txt
+   ls
+    ls-l
+    ls-ltr
+    man alias
+    cat>ab.txt
+    sort n ab.txt\
+    cat>n.txt
+    sort-n n.txt
+    sort n n.txt
+    sort n.txt
+    sort k7 ab.txt
+    cut ab.txt
+    cat>bc.txt
+    paste ab.txt bc.txt
+    join ab.txt bc.txt
+    sort ab.txt
+    sort bc.txt
+    join ab.txt bc.txt
+    grep "fgf" bc.txt
+    grep "najeeb" ab.txt
+    cut ab.txt
+    cut "najeeb" ab.txt
+    cut--help
+    join 1 2 2 3 ab.txt bc.txt 
+    ln
+    uname
+
+
+
+---------------
+
+-----------------------------
+najeeb 
+vishnu
+jalal
+densil
+saurav
+
+sort-
+
+densil
+jalal
+najeeb 
+saurav
+vishnu
+
+abc
+fgrr
+fgf
+gh
+
+join
+
+najeeb 	abc
+vishnu	fgrr
+jalal	fgf
+densil	gh
+saurav	
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
