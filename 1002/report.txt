@@ -1,0 +1,85 @@
+CEC CS 18 C41
+
+NAJEEB
+
+--------------------------------
+#1:NETWORKING TASKS (task 3)
+---------------------------------
+input;
+        ifconfig -a
+	route -n
+	route add default gw 192.168.0.2
+ 	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1">>resolv.conf		
+                     
+--------------------------------
+output;	
+       	  ifconfig -a displays all available network interfaces
+ 	
+          route -n displays kernal routing table
+	
+          route add, is used add a new route to the table,
+         
+          route add default gw 192.168.0.2, a default gateway in this case
+
+          echo "nameserver 1.1.1.1" >> /etc/resolv.conf  is used to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------------------------
+
+
+
+
+
+#2: ssh,rsync,scp (task 4)
+
+---------------------------------
+Input: 
+
+     ssh
+     rsync
+     scp
+
+--------------------------------
+Output: 
+
+          ssh cs18c41@192.168.0.30 is used to open a secured connection to remote 
+ 
+          rsync -av abc.txt is used to upload abc.txt to 1002
+	 
+	 scp df.txt cs18c41@192.168.0.30:1002 is used to upload abc.txt to 1002
+ 
+
+---------------------------------------
+
+
+
+
+
+
+#3: Ftp usage(task 5)
+
+-------------------------------
+input: 	
+	sftp cs18c41@192.168.0.30
+	put df.txt
+	get df.txt
+	rm df.txt
+	exit
+
+--------------------------------
+Output: 
+
+	 sftp cs18c41@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	 put df.txt, upload df.txt
+
+         get df.txt, copy df.txt from host to local system
+
+	 rm df.txt, remove df.txt from host
+
+         exit, quit current ftp session
+
+
+
+
+

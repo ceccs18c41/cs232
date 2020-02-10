@@ -1,0 +1,571 @@
+Script started on Monday 10 February 2020 03:04:30 PM IST
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.174  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:27081 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7986 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12979412 (12.9 MB)  TX bytes:1205264 (1.2 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:76 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:4940 (4.9 KB)  TX bytes:4940 (4.9 KB)
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ rto[K[Koute -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ^V[Krooute=[K[K[K[K[Kute add default gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ping 192.168.0..[K1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+From 192.168.0.174 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.174 icmp_seq=2 Destination Host Unreachable
+From 192.168.0.174 icmp_seq=3 Destination Host Unreachable
+64 bytes from 192.168.0.1: icmp_req=9 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_req=10 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_req=11 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_req=12 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_req=13 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_req=14 ttl=64 time=2.45 ms
+64 bytes from 192.168.0.1: icmp_req=15 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_req=16 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_req=17 ttl=64 time=3.43 ms
+64 bytes from 192.168.0.1: icmp_req=18 ttl=64 time=2.45 ms
+64 bytes from 192.168.0.1: icmp_req=19 ttl=64 time=2.44 ms
+64 bytes from 192.168.0.1: icmp_req=20 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_req=21 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_req=22 ttl=64 time=2.43 ms
+64 bytes from 192.168.0.1: icmp_req=23 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_req=24 ttl=64 time=7.00 ms
+64 bytes from 192.168.0.1: icmp_req=25 ttl=64 time=16.3 ms
+64 bytes from 192.168.0.1: icmp_req=26 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_req=27 ttl=64 time=2.40 ms
+64 bytes from 192.168.0.1: icmp_req=28 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_req=29 ttl=64 time=3.18 ms
+64 bytes from 192.168.0.1: icmp_req=30 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_req=31 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_req=32 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_req=33 ttl=64 time=5.66 ms
+64 bytes from 192.168.0.1: icmp_req=34 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_req=35 ttl=64 time=2.45 ms
+64 bytes from 192.168.0.1: icmp_req=36 ttl=64 time=2.56 ms
+64 bytes from 192.168.0.1: icmp_req=37 ttl=64 time=2.77 ms
+64 bytes from 192.168.0.1: icmp_req=38 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_req=39 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_req=40 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_req=41 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_req=42 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_req=43 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_req=44 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_req=45 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_req=46 ttl=64 time=2.44 ms
+64 bytes from 192.168.0.1: icmp_req=47 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_req=48 ttl=64 time=2.62 ms
+64 bytes from 192.168.0.1: icmp_req=49 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_req=50 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_req=51 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_req=52 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_req=53 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_req=54 ttl=64 time=2.51 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.1
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ cat /etc/re slov.conf[1Pv.conf[C[C[1Pv.conf[Cov.conf[C[Clv.conf[C[C[C
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1
+search example.org
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ echo ""n"a"m"e" "s"e"r"v"e"r" [A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ""1"."1"."1"."1"[C>>reslov.conf
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ echo "name server 1.1.1.1">>reslov.coonf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [16Pcat /etc/resolv.conf
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "name server 1.1.1.1">>reslov.coonf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv.con[1Pf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv.conf[K[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cov.conf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clv.conf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ssh cs18c41@192.18[K68.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ ^Z
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ g edit[K[K[K[K[Kedit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ geditssh cs18c41@192.168.0.30echo "name server 1.1.1.1">>resolv.coonf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [12Pssh cs18c41@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:10:19 2020 from 192.168.0.174
+$ rsync abc.txt
+rsync: link_stat "/home/cs18c41/abc.txt" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ ^[[A^[[A^[[B^[[B \                rsync abc.txt ceccs188=  c41@1921 .168.0.30 1002
+rsync: link_stat "/home/cs18c41/abc.txt" failed: No such file or directory (2)
+rsync: link_stat "/home/cs18c41/ceccs18c41@192.168.0.30" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ rsync abc, , .txt
+rsync: link_stat "/home/cs18c41/abc.txt" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ history
+    1  ping
+    2  ftp
+    3  if config; 192.168.0.2; exit; 
+    4  if config
+    5  man ls
+    6  sort
+    7  mkdir ceccs18c41
+    8  cd ceccs18c41
+    9  mkdir cs232
+   10  cd cs232
+   11  script work.txt
+   12  ls
+   13  sort
+   14  script work.txt
+   15  cd ceccs18c41
+   16  cd cs232
+   17  man ls\
+   18  man sort
+   19  grep
+   20  paste
+   21  join
+   22  join --help
+   23  join f f
+   24  if config;  clear()\
+   25  cd ceccs18c41
+   26  cd cs232
+   27  script work.text
+   28  sudo apt get install firefox
+   29  su lab2
+   30  cd ceccs18c41
+   31  cd cs232
+   32  script work.txt
+   33  ls
+   34  ls-l
+   35  ls-lt
+   36  sort nk7 fn
+   37  history
+   38  paste
+   39  exit
+   40  history
+   41  exit
+   42  sudo apt-get install ubuntu
+   43  cd ceccs18c41
+   44  cd cs232
+   45  script work.txt
+   46  cd ceccs18c41
+   47  cd cs232
+   48  script work.txt
+   49  ceccs18c41
+   50  cd ceccs18c41
+   51  cd cs232
+   52  script work.txt
+   53  ls
+   54  ls-l
+   55  ls-ltr
+   56  man alias
+   57  cat>ab.txt
+   58  sort n ab.txt
+   59  cat>n.txt
+   60  sort-n n.txt
+   61  sort n n.txt
+   62  sort n.txt
+   63  sort k7 ab.txt
+   64  cut ab.txt
+   65  cat>bc.txt
+   66  paste ab.txt bc.txt
+   67  join ab.txt bc.txt
+   68  sort ab.txt
+   69  sort bc.txt
+   70  join ab.txt bc.txt
+   71  grep "fgf" bc.txt
+   72  grep "najeeb" ab.txt
+   73  cut ab.txt
+   74  cut "najeeb" ab.txt
+   75  cut--help
+   76  join 1 2 2 3 ab.txt bc.txt
+   77  ln
+   78  uname
+   79  if confg;  exit;  exit; clear() exit()
+   80  exit
+   81  mkdir 0302
+   82  cd 0302
+   83  gdit report.txt
+   84  gedit report.txt
+   85  history
+   86  gedit report.txt
+   87  sftp cs18c41@192.168.0.30
+   88  script work.txt
+   89  pdftotext -layout CHN.pdf CHN.txt
+   90  cd cs232
+   91  sftp cs18c41@192.168.0.30
+   92  script work.txt
+   93  ifconfig -a
+   94  route-n
+   95  route -n
+   96  route  add default gw 192.168.0.2
+   97  route add default gw 192.168.0.2
+   98  ping 192.168.0.1
+   99  cat /etc/reslov.conf
+  100  cat /etc/resolv.conf
+  101  echo "nameserver 1.1.1.1" >> resolv.conf
+  102  exit
+  103  gedit report.txt
+  104  sftp cs18c41@192.168.30
+  105  sftp cs18c41@192.168.0.30
+  106  cd cs18c41
+  107  cd cec18c41
+  108  \cd ceccs18c41
+  109  cd cs232
+  110  cd 0302
+  111  sftp cs18c41@192.168.030
+  112  sftp cs18c41@192.168.0.30
+  113  cd cs18c41
+  114  cd ceccs18c41
+  115  sudo install firefox
+  116  ifconfig -a
+  117  route -n
+  118  route add default gw 192.168.0.2
+  119  ping 192.168.0.1
+  120  cat /etc/resolv.conf
+  121  echo "name server 1.1.1.1">>reslov.conf
+  122  echo "name server 1.1.1.1">>resolv.conf
+  123  ssh cs18c41@192.168.0.30
+  124  gedit
+  125  ssh cs18c41@192.168.0.30
+  126  history
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ historyssh cs18c41@192.168.0.30gedit[Kssh cs18c41@192.168.0.30echo "name server 1.1.1.1">>resolv.coonf[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clov.co[C[C[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Colv.co[C[C[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ [12Pssh cs18c41@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:12:45 2020 from 192.168.0.174
+$ ls
+0302  examples.desktop
+$ rsync -ab v abc   0301 2/ abc.ttx  xrt  t.     /
+sending incremental file list
+created directory abc
+./
+ab.txt
+bc.txt
+report.txt
+work.txt
+
+sent 10,066 bytes  received 121 bytes  20,374.00 bytes/sec
+total size is 9,743  speedup is 0.96
+$ exit    exit 
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scpa[K abc.txt cec18c47[K1@192.168.0[K0.30
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp abc.txt cec18c41@192.168.0.30[K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp abc.txt cec18c41@192.168.0.30[K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp abc.txt cec18c41@192.168.0.30:1002
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cec18c41@192.168.0.30's password: 
+Permission denied, please try again.
+cec18c41@192.168.0.30's password: 
+Permission denied, please try again.
+cec18c41@192.168.0.30's password: 
+Permission denied (publickey,password).
+lost connection
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp abc.txt cec18c41@192.168.0.30:1002c18c41@192.168.0.30:1002s18c41@192.168.0.30:1002[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c41@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c41@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c41@192.168.0.30's password: 
+Permission denied (publickey,password).
+lost connection
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ssh cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:18:13 2020 from 192.168.0.174
+$ ^[[A    ls
+0302  abc  examples.desktop
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp[K[K[Kifcofg[K[Knfig 0a[K[K-a
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.174  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:225594 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:34331 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:63888841 (63.8 MB)  TX bytes:5003538 (5.0 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:79 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:5276 (5.2 KB)  TX bytes:5276 (5.2 KB)
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     *               255.255.255.0   U     1      0        0 eth0
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ route add default 192.168.1.10
+SIOCADDRT: Operation not permitted
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ping 192.168.1.10
+connect: Network is unreachable
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ gedit ab.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ cat abc.txt
+"hello "
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ cat abc.txt[C[C[C[1P.txt
+cat: ab.txt: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ cat>hj.txt
+
+
+exit    sdf
+sdfsd
+^Z
+[2]+  Stopped                 cat > hj.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ 
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sort hj.txt
+
+
+sdf
+sdfsd
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ cat>ab[K[K[Kuiui[K[K[K[K>yuy.txt
+5
+8
+3
+9
+2
+
+5
+^Z
+[3]+  Stopped                 cat > yuy.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ 
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sort yuy.txt\
+> 
+
+2
+3
+5
+5
+8
+9
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sort yuy.txt\[2Pcat>yuy.txtsort hj.txt[1Pcat>hj.txt ab.txtc.txt[1P.txt>hj.txtsort hj.txtcat>yuy.txtsort yuy.txt\[Ksort yuy.txt\[2Pcat>yuy.txtsort hj.txt[1Pcat>hj.txt ab.txtc.txtgedit ab.txtping 192.168.1.10[13@route add default[C[C[C[C[C[C[C[C[C[C[C[C[C-n[Kadd default 192.168.1.10[13Pping[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgedit ab.txt[K[K[K[K[K[K[K[K[K[K[K[K   sh[Ksh cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:40:48 2020 from 192.168.0.174
+$ rsync -av/0   0302/ ex.   exampple   le/
+sending incremental file list
+created directory example
+./
+ab.txt
+bc.txt
+report.txt
+work.txt
+
+sent 10,066 bytes  received 125 bytes  20,382.00 bytes/sec
+total size is 9,743  speedup is 0.96
+$ ls
+0302  abc  example  examples.desktop
+$ scp     exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ e[Kscp ab[K[K[K[K[K[Kcat>df.txt
+hi
+^Z
+[4]+  Stopped                 cat > df.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ scp[K[Ksh cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 11:01:32 2020 from 192.168.0.174
+$ sc  ls
+0302  abc  example  examples.desktop
+$ scp example abc
+cp: omitting directory 'example'
+$ ^[[A^[[A        cd ex   a  abc
+$ ls
+ab.txt	bc.txt	report.txt  work.txt
+$ cd ..
+$ put df.txt
+-sh: 6: put: not found
+$ af  sftpp       xit   exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sftp cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              abc               example           examples.desktop  
+sftp> put [K[Kscp[K[K[K[Kput df.txt
+Uploading df.txt to /home/cs18c41/df.txt
+df.txt                                                                                                          0%    0     0.0KB/s   --:-- ETAdf.txt                                                                                                        100%    3     0.0KB/s   00:00    
+sftp> ls
+0302              abc               df.txt            example           examples.desktop  
+sftp> exit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ ssh ceccs18[K[K[K[K[K[K[Kcs18c41
+ssh: Could not resolve hostname cs18c41: Name or service not known
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ 2[Kssh cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 11:11:44 2020 from 192.168.0.174
+$ ls
+0302  abc  df.txt  example  examples.desktop
+$ scp fd  df.txt abc
+$ ls
+0302  abc  df.txt  example  examples.desktop
+$ cd abcc 
+$ ls
+ab.txt	bc.txt	df.txt	report.txt  work.txt
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sftp cs18c41@a92[K[K[K192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              abc               df.txt            example           examples.desktop  
+sftp> rm sbc[K[K[Kabc
+Removing /home/cs18c41/abc
+Couldn't delete file: Failure
+sftp> rm df.txt
+Removing /home/cs18c41/df.txt
+sftp> rm exapmle[K[K[K[Kmple
+Removing /home/cs18c41/example
+Couldn't delete file: Failure
+sftp> e[Krm abc
+
+Removing /home/cs18c41/abc
+Couldn't delete file: Failure
+sftp> 
+sftp> cd 0302
+sftp> ls
+ab.txt      bc.txt      report.txt  work.txt    
+sftp> exit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/1002$ sftp cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              abc               example           examples.desktop  
+sftp> put df.txt
+Uploading df.txt to /home/cs18c41/df.txt
+df.txt                                                                                                          0%    0     0.0KB/s   --:-- ETAdf.txt                                                                                                        100%    3     0.0KB/s   00:00    
+sftp> rm df.txt
+Removing /home/cs18c41/df.txt
+sftp> put df.txxt[K[Kt[Kt
+Uploading df.txt to /home/cs18c41/df.txt
+df.txt                                                                                                          0%    0     0.0KB/s   --:-- ETAdf.txt                                                                                                        100%    3     0.0KB/s   00:00    
+sftp> get df.txt
+Fetching /home/cs18c41/df.txt to df.txt
+/home/cs18c41/df.txt                                                                                            0%    0     0.0KB/s   --:-- ETA/home/cs18c41/df.txt                                                                                          100%    3     0.0KB/s   00:00    
+sftp> rm.txt~~[7G[1@~rrm.txt~~[K[K[K[K[K[K[K[K[Krm df.txt
+Removing /home/cs18c41/df.txt
+sftp> exit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/1002s4c2@lab2-Acer
