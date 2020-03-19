@@ -1,0 +1,244 @@
+Script started on Monday 02 March 2020 02:48:41 PM IST
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ ge[Kdit [K[K[K[Kedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ sftp cs18c41@192.168.0.03[K[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302                1002                2402                abc                 
+example             examples.desktop    
+sftp> put index.html
+Uploading index.html to /home/cs18c41/index.html
+index.html                                      0%    0     0.0KB/s   --:-- ETAindex.html                                    100% 4292     4.2KB/s   00:00    
+sftp> rm index.html
+Removing /home/cs18c41/index.html
+sftp> exit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ sftp cs18c41@192.168.0.30[9Pgedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit index.html
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit index.htmlsftp cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> pu[K[Kls
+0302                1002                2402                abc                 
+example             examples.desktop    
+sftp> put index.html
+Uploading index.html to /home/cs18c41/index.html
+index.html                                      0%    0     0.0KB/s   --:-- ETAindex.html                                    100% 2699     2.6KB/s   00:00    
+sftp> rm index.html
+Removing /home/cs18c41/index.html
+sftp> 1rm index.html[K[K[K[K[K[K[K[K[K[K[K[Kput index.html
+Uploading index.html to /home/cs18c41/index.html
+index.html                                      0%    0     0.0KB/s   --:-- ETAindex.html                                    100% 2699     2.6KB/s   00:00    
+sftp> exit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ -r'/home/s4c2/ceccs18c41/cs2 32/0203' 
+bash: -r/home/s4c2/ceccs18c41/cs232/0203: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ su admin1
+Password: 
+su: Authentication failure
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ su admin1[K[K[K[K[K[Klab2
+Password: 
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ ^V[Ksudo apt-get instal l vsftpd
+[sudo] password for lab2: 
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 19%Reading package lists... 31%Reading package lists... 45%Reading package lists... 47%Reading package lists... 47%Reading package lists... 48%Reading package lists... 48%Reading package lists... 53%Reading package lists... 53%Reading package lists... 54%Reading package lists... 54%Reading package lists... 54%Reading package lists... 54%Reading package lists... 62%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 94%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 335 not upgraded.
+Need to get 130 kB of archives.
+After this operation, 353 kB of additional disk space will be used.
+0% [Working]            0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Err http://in.archive.ubuntu.com/ubuntu/ precise/main vsftpd i386 2.3.5-1ubuntu2
+  503  Service Unavailable
+                        0% [Working]            Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/v/vsftpd/vsftpd_2.3.5-1ubuntu2_i386.deb  503  Service Unavailable
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ mansed[K[K[K sed
+[?1049h[?1h=SED(1)                                               User Commands                                               SED(1)[m
+[m
+[1mNAME[0m[m
+       sed - stream editor for filtering and transforming text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msed[0m [[4mOPTION[24m]... [4m{script-only-if-no-other-script}[24m [[4minput-file[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       [4mSed[24m  is  a  stream  editor.  A stream editor is used to perform basic text transformations on an input stream (a[m
+       file or input from a pipeline).  While in some ways similar to an editor which permits scripted edits  (such  as[m
+       [4med[24m),  [4msed[24m  works by making only one pass over the input(s), and is consequently more efficient.  But it is [4msed[24m's[m
+       ability to filter text in a pipeline which particularly distinguishes it from other types of editors.[m
+[m
+       [1m-n[0m, [1m--quiet[0m, [1m--silent[0m[m
+[m
+              suppress automatic printing of pattern space[m
+[m
+       [1m-e[0m script, [1m--expression[0m=[4mscript[24m[m
+[m
+              add the script to the commands to be executed[m
+[m
+       [1m-f[0m script-file, [1m--file[0m=[4mscript-file[24m[m
+[m
+              add the contents of script-file to the commands to be executed[m
+[m
+       [1m--follow-symlinks[0m[m
+[m
+              follow symlinks when processing in place[m
+[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[SUFFIX][0m, [1m--in-place[0m[=[4mSUFFIX[24m][m
+[7m Manual page sed(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              edit files in place (makes backup if extension supplied)[m
+[7m Manual page sed(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m N, [1m--line-length[0m=[4mN[24m[m
+[7m Manual page sed(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              specify the desired line-wrap length for the `l' command[m
+[7m Manual page sed(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--posix[0m[m
+[7m Manual page sed(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              disable all GNU extensions.[m
+[7m Manual page sed(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--regexp-extended[0m[m
+[7m Manual page sed(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use extended regular expressions in the script.[m
+[7m Manual page sed(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--separate[0m[m
+[7m Manual page sed(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              consider files as separate rather than as a single continuous long stream.[m
+[7m Manual page sed(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unbuffered[0m[m
+[7m Manual page sed(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              load minimal amounts of data from the input files and flush the output buffers more often[m
+[7m Manual page sed(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m[m
+[7m Manual page sed(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display this help and exit[m
+[7m Manual page sed(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page sed(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page sed(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If no [1m-e[0m, [1m--expression[0m, [1m-f[0m, or [1m--file[0m option is given, then the first non-option argument is taken  as  the  sed[m
+[7m Manual page sed(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       script  to  interpret.   All remaining arguments are names of input files; if no input files are specified, then[m
+[7m Manual page sed(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the standard input is read.[m
+[7m Manual page sed(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU   sed   home   page:    <http://www.gnu.org/software/sed/>.     General    help    using    GNU    software:[m
+[7m Manual page sed(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://www.gnu.org/gethelp/>.   E-mail  bug  reports  to: <bug-gnu-utils@gnu.org>.  Be sure to include the word[m
+[7m Manual page sed(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ``sed'' somewhere in the ``Subject:'' field.[m
+[7m Manual page sed(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--posix[0m[m
+[30;1H[K[7m Manual page sed(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              specify the desired line-wrap length for the `l' command[m
+[30;1H[K[7m Manual page sed(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-l[0m N, [1m--line-length[0m=[4mN[24m[m
+[30;1H[K[7m Manual page sed(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              edit files in place (makes backup if extension supplied)[m
+[30;1H[K[7m Manual page sed(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-i[SUFFIX][0m, [1m--in-place[0m[=[4mSUFFIX[24m][m
+[30;1H[K[7m Manual page sed(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              follow symlinks when processing in place[m
+[30;1H[K[7m Manual page sed(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--follow-symlinks[0m[m
+[30;1H[K[7m Manual page sed(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              add the contents of script-file to the commands to be executed[m
+[30;1H[K[7m Manual page sed(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m script-file, [1m--file[0m=[4mscript-file[24m[m
+[30;1H[K[7m Manual page sed(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              add the script to the commands to be executed[m
+[30;1H[K[7m Manual page sed(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-e[0m script, [1m--expression[0m=[4mscript[24m[m
+[30;1H[K[7m Manual page sed(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              suppress automatic printing of pattern space[m
+[30;1H[K[7m Manual page sed(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m, [1m--quiet[0m, [1m--silent[0m[m
+[30;1H[K[7m Manual page sed(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ability to filter text in a pipeline which particularly distinguishes it from other types of editors.[m
+[30;1H[K[7m Manual page sed(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4med[24m),  [4msed[24m  works by making only one pass over the input(s), and is consequently more efficient.  But it is [4msed[24m's[m
+[30;1H[K[7m Manual page sed(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       file or input from a pipeline).  While in some ways similar to an editor which permits scripted edits  (such  as[m
+[30;1H[K[7m Manual page sed(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mSed[24m  is  a  stream  editor.  A stream editor is used to perform basic text transformations on an input stream (a[m
+[30;1H[K[7m Manual page sed(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[30;1H[K[7m Manual page sed(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1msed[0m [[4mOPTION[24m]... [4m{script-only-if-no-other-script}[24m [[4minput-file[24m]...[m
+[30;1H[K[7m Manual page sed(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[30;1H[K[7m Manual page sed(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       sed - stream editor for filtering and transforming text[m
+[30;1H[K[7m Manual page sed(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[30;1H[K[7m Manual page sed(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMSED(1)                                               User Commands                                               SED(1)[m
+[30;1H[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[SUFFIX][0m, [1m--in-place[0m[=[4mSUFFIX[24m][m
+[7m Manual page sed(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              edit files in place (makes backup if extension supplied)[m
+[7m Manual page sed(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m N, [1m--line-length[0m=[4mN[24m[m
+[7m Manual page sed(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              specify the desired line-wrap length for the `l' command[m
+[7m Manual page sed(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sed(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[30;1H[K[7m Manual page sed(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1msed[0m [[4mOPTION[24m]... [4m{script-only-if-no-other-script}[24m [[4minput-file[24m]...[m
+[30;1H[K[7m Manual page sed(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[30;1H[K[7m Manual page sed(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       sed - stream editor for filtering and transforming text[m
+[30;1H[K[7m Manual page sed(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[30;1H[K[7m Manual page sed(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page sed(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMSED(1)                                               User Commands                                               SED(1)[m
+[30;1H[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page sed(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l
+[1]+  Stopped                 man sed
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ gdit report.txt
+gdit report.txt
+No command 'gdit' found, did you mean:
+ Command 'edit' from package 'mime-support' (main)
+ Command 'gedit' from package 'gedit' (main)
+ Command 'gdis' from package 'gdis' (universe)
+ Command 'git' from package 'git' (main)
+gdit: command not found
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ gdit report.txt[1@e
+No protocol specified
+No protocol specified
+Cannot open display: 
+Run 'gedit --help' to see a full list of available command line options.
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ gedit report.txt
+No protocol specified
+No protocol specified
+Cannot open display: 
+Run 'gedit --help' to see a full list of available command line options.
+]0;lab2@lab2-AcerPower-Series: /home/s4c2/ceccs18c41/cs232/0203lab2@lab2-AcerPower-Series:/home/s4c2/ceccs18c41/cs232/0203$ gedit report.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksu s4c2
+Password: 
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ geidt =[K[K[K[K[Kdit report.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.210  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:386748 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11161 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:39465250 (39.4 MB)  TX bytes:1497083 (1.4 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:70 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:5852 (5.8 KB)  TX bytes:5852 (5.8 KB)
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ ifconfiggedit report.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit report.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c41/cs232/0203s4c2@lab2-AcerPower-Series:~/ceccs18c41/cs232/0203$ gedit report.txt[8Pifconfiggedit report.txt[9Pcd 0203[3@mkdir[C[C[C[C[C[2Pcd cs232eccs18c41..[K..  ..sftp cs18c41@192.168.0.30cd s2[Ksftp cs18c41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c41@192.168.

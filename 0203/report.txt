@@ -1,0 +1,34 @@
+CEC CS 18 C41 
+
+NAJEEB
+
+LAN: 192.168.0.210
+MAC: 00:15:58:19:23:0b
+
+--------------------------------
+#1: Create own web page at  server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs18c/cs18c00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	gedit
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs18c/cs18c41
+
+-------------------
+Remarks if any:
+	
+
+-------------------------------------
+-------------------------------------
+
