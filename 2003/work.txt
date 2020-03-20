@@ -1,0 +1,101 @@
+Script started on Friday 20 March 2020 08:48:57 PM IST
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ ftp localhostsudo gedit /etc/vsftpd.confapt-get install vsftpd[12Pcript work.txtudo apt-get install vsftpd
+[sudo] password for user: 
+Sorry, try again.
+[sudo] password for user: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version.
+The following packages were automatically installed and are no longer required:
+  liblinear-tools liblinear1
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 486 not upgraded.
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ sudo apt-get install vsftpd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pftp localhostsudo gedit /etc/vsftpd.conf
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:user): user
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    8 1000     1000         4096 Mar 20 08:14 Desktop
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 Documents
+drwxr-xr-x    3 1000     1000         4096 Mar 20 18:21 Downloads
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 Music
+drwxrwxr-x    3 1000     1000         4096 Dec 15  2018 Noushad
+drwxr-xr-x    2 1000     1000         4096 Mar 20 18:35 Pictures
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 Public
+drwxrwxr-x    2 1000     1000         4096 Dec 02  2018 School_Resources
+drwxrwxr-x    2 1000     1000         4096 Dec 02  2018 Students_Works_5
+drwxrwxr-x    2 1000     1000         4096 Dec 02  2018 Students_Works_6
+drwxrwxr-x    2 1000     1000         4096 Dec 02  2018 Students_Works_7
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 Templates
+lrwxrwxrwx    1 1000     1000           16 Dec 02  2018 TuxPaint-Pictures -> .tuxpaint/saved/
+-rw-rw-r--    1 1000     1000        20488 Dec 02  2018 Untitled 1.odp
+drwxrwxr-x    2 1000     1000         4096 Dec 02  2018 VCD_Copy
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 Videos
+-rw-r--r--    1 1000     1000         8980 Dec 02  2018 examples.desktop
+-rwxrwxr-x    1 1000     1000          239 Dec 02  2018 itsuserguide.desktop
+drwxr-xr-x    2 1000     1000         4096 Dec 02  2018 lampp_files
+drwxrwxr-x    5 1000     1000         4096 Mar 20 18:41 najeeb
+drwxrwxr-x    3 1000     1000         4096 Dec 02  2018 programs
+drwxrwxr-x    3 1000     1000         4096 Dec 02  2018 reset-settings
+226 Directory send OK.
+ftp> cd noushad 
+550 Failed to change directory.
+ftp> cd noushad [K
+550 Failed to change directory.
+ftp> cd najeeb
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxrwxr-x    2 1000     1000         4096 Mar 20 00:05 1903
+drwxrwxr-x    2 1000     1000         4096 Mar 20 20:43 2003
+drwxrwxr-x    3 1000     1000         4096 Mar 20 08:13 test
+226 Directory send OK.
+ftp> cd ..
+250 Directory successfully changed.
+ftp> cd programs
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxrwxr-x    3 1000     1000         4096 May 07  2017 xampp_mysql_14.04.4
+-rw-r--r--    1 1000     1000     393676800 Jan 10  2018 xampp_mysql_14.04.4.tar
+226 Directory send OK.
+ftp> cd ..
+250 Directory successfully changed.
+ftp> exit
+221 Goodbye.
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ sudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version.
+The following packages were automatically installed and are no longer required:
+  liblinear-tools liblinear1
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 486 not upgraded.
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ hostname -I
+192.168.225.59 2409:4073:48c:19:fcd5:6204:1e12:8389 2409:4073:48c:19:82c5:f2ff:fefb:692b 
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ sudo gedit /var/www/hy[Ktml/index.html
+
+(gedit:8658): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:8658): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ sudo gedit /var/www/html/index.html
+
+(gedit:8802): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:8802): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+]0;user@user: ~/najeeb/2003user@user:~/najeeb/2003$ exi[K[K[Kexit
+exit
+
+Script done on Friday 20 March 2020 08:59:47 PM IST

@@ -1,0 +1,73 @@
+CEC CS 18 c 41	
+
+NAJEEB
+
+--------------------------------
+#1: Linux Installation(t6)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+      Linux  mint installation device
+
+
+      # To update grub configuration
+      update-grub 
+
+--------------------------------
+Output: or Input & Output 
+     
+
+     Linux  mint  is installed
+     
+
+-------------------
+Remarks if any:
+
+      images are placed in the folder
+      photos  1-5  shows various steps of installation
+      Screenshot 6.png shows update-grub in action 
+
+
+--------------------------------
+
+#2: Setting up ftp and http servers(t7)
+ ---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#to install ftp server
+	sudo apt-get install vsftpd
+	
+	#to edit server configuration
+	sudo vim /etc/vsftpd.conf
+	
+	#to connect to ftp on local server
+	ftp localhost	
+	
+	#to install apache2
+	sudo apt-get install apache2
+	
+	#to edit HTML file
+	sudo vim /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at 192.168.225.59 
+	
+		
+
+-------------------
+Remarks if any:
+
+            # Apache http server :screenshot of webpage attached.
+	    http.png
+
+-------------------------------------
+-------------------------------------
