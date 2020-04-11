@@ -1,0 +1,198 @@
+CEC CS 18 C 41  11/04/20
+
+  NAJEEB
+
+   PUBLIC IP : 137.97.75.137
+   
+   IP address :  192.168.225.59
+   mac address:  80:c5:f2:fb:69:2b  
+
+
+--------------------------------------------
+#1: (S 4) 
+	 Shell script to show various system configuration like (S 4)
+
+    * Currently logged user and his login name  
+    * Your current shell 
+    * Your home directory 
+    * Your operating system type 
+    * Your current path setting 
+    * Your current working directory 
+    * Number of users currently logged in
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+ Input: 
+
+    # shell script
+        nano  systemconfig.sh
+
+    #To execute script file
+        bash systemconfig.sh  
+ -------------------------------------------------------------------------
+
+Output:
+-----------------------------------------------------------------------------
+
+   
+  * Currently logged user and his login name  
+  * Your current shell 
+  * Your home directory 
+  * Your operating system type 
+  * Your current path setting 
+  * Your current working directory 
+  * Number of users currently logged in
+
+--------------------------------------------------------------------------------
+Remark if any
+  
+     screenshot 1.png is attached to show various system configuration
+--------------------------------------------------------------------------------
+
+
+#2:   (S 5) 
+     
+	 Shell script to show various system configuration like (S 5)
+     * OS and version, release number, kernel version 
+     * All available shells 
+     * Computer CPU information like processor type, speed etc 
+     * Memory information 
+     * Hard disk information like size of hard-disk, cache memory, model etc 
+     * File system (Mounted) 
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+INPUT:  
+
+  # shell script
+       nano systemconfig1.sh
+
+    #To execute script file
+        bash systemconfig1.sh  
+ -------------------------------------------------------------------------
+Output:
+    
+    * OS and version, release number, kernel version 
+    * All available shells 
+    * Computer CPU information like processor type, speed etc 
+    * Memory information 
+    * Hard disk information like size of hard-disk, cache memory, model etc 
+    * File system (Mounted) 
+
+
+--------------------------------------------------------------------------------
+Remark if any
+        
+     conf.txt is attached to show system configuration of above mentioned
+
+--------------------------------------------------------------------------------
+
+#3: (s 6) 
+
+	Shell script to implement a menu driven calculator with following functions (S6) 	
+	1.  Addition 
+	2.  Subtraction 
+	3.  Multiplication 
+	4.  Division 
+	5.  Modulus
+
+--------------------------------------------
+
+Command/Shell script/Program name
+
+---------------------------------------------
+    # shell script
+        nano cal.sh
+
+    #To execute script file
+        bash mdcal.sh  
+ -----------------------------------------------
+
+Input and Output:
+----------------------------------------------------
+....MENU DRIVEN CALCULATOR....
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+1
+Enter the  augend
+7
+Enter the addend
+2
+Sum = 9
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+2
+Enter the subrahend
+9
+Enter the minuend
+3
+Difference = 6
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+7
+Enter the multiplier
+4
+Product = 28
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+4
+Enter the dividend
+6
+Enter the divisor
+3
+Quotient = 3
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+5
+Enter the first number
+6
+Enter the second number
+4
+Remainder = 2
+*********************************
+Do want to continue?(Y/N)
+N
+--------------------------------------------------
+
+Remarks if any:
+---------------------------------------------------

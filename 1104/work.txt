@@ -1,0 +1,333 @@
+Script started on Saturday 11 April 2020 03:09:56 PM IST
+]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ sudo nao[Kno systemconfig.sh
+[sudo] password for user: 
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6            File: systemconfig.sh                               [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[0m[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The currently logged user is        : $USER\n"[5d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current login name is           : $LOGNAME\n"[6d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current shell[19X[6;50H: $SHELL\n"[7d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current home directory          : $HOME\n"[8d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The operating system type           :"[9d[39m(B[muname -o[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current path setting             :$PATH\n"[11d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current working directory        :"[12d[39m(B[mpwd[13d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The number of users currently logged :"[14d[39m(B[mwho[22d[K[14;4H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: systemconfig.sh                         [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;36H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 12 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ bashsudo nano systemconfig.sh[C[1P systemconfig.sh[1P systemconfig.sh[1P systemconfig.sh[1P systemconfig.sh[1Psystemconfig.sh[1P systemconfig.sh[1P systemconfig.sh[1P systemconfig.sh[1P systemconfig.shb systemconfig.sha systemconfig.shs systemconfig.shh systemconfig.sh
+ 
+ The currently logged user is        : user
+
+ 
+ The current login name is           : user
+
+ 
+ The current shell                   : /bin/bash
+
+ 
+ The current home directory          : /home/user
+
+ 
+ The operating system type           :
+GNU/Linux
+
+ The current path setting             :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+
+ The current working directory        :
+/home/user/najeeb/1104
+
+ The number of users currently logged :
+user     :0           2020-04-11 14:55 (:0)
+user     pts/0        2020-04-11 15:09 (:0.0)
+]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ [K]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ bash systemconfig.sh1.sh
+bash: systemconfig1.sh: No such file or directory
+]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ bash systemconfig1.sh[1P.sh[5@sudo nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.sh
+[sudo] password for user: 
+Sorry, try again.
+[sudo] password for user: 
+[?1049h[1;54r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                                       File: systemconfig1.sh                                                                                                                      [52;100H[ New File ][53d^G(B[m Get Help[53;36H(B[0;7m^O(B[m WriteOut[53;71H(B[0;7m^R(B[m Read File[53;106H(B[0;7m^Y(B[m Prev Page[53;141H(B[0;7m^K(B[m Cut Text[53;176H(B[0;7m^C(B[m Cur Pos[54d(B[0;7m^X(B[m Exit[54;36H(B[0;7m^J(B[m Justify[54;71H(B[0;7m^W(B[m Where Is[54;106H(B[0;7m^V(B[m Next Page[54;141H(B[0;7m^U(B[m UnCut Text[54;176H(B[0;7m^T(B[m To Spell[3d[1;202H(B[0;7mModified[3d(B[0m[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The operating system version,release number  :\n"[5d[34mcat[39m(B[m /etc/os-release[6d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n OPerating system kernel version[14X[6;58H:\n"[7d[39m(B[muname [32m-r[8d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n All available shells[25X[8;58H:\n"[9d[34mcat[39m(B[m /etc/shells[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n CPU information[30X[10;58H:\n"[11d[34mcat[39m(B[m /proc/cpuinfo[12d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Memory information[27X[12;58H:\n"[13d[34mcat[39m(B[m /proc/meminfo[14d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Hard disk information[25X[14;59H:\n"[15d[39m(B[mdf -h[16d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n File system (Mounted)[24X[16;58H:\n"[17d[39m(B[mmount [32m|[39m(B[m column -t[52d[K[17;18H[52d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                       [53;1H Y(B[m Yes[K[54d(B[0;7m N(B[m No  [54;17H(B[0;7m^C(B[m Cancel[K[52;62H(B[0;7mFile Name to Write: systemconfig1.sh                        [53d^G(B[m Get Help[53;53H(B[0;7mM-D(B[m DOS Format[53;105H(B[0;7mM-A(B[m Append[53;157H(B[0;7mM-B(B[m Backup File[54d(B[0;7m^C(B[m Cancel[17G         [54;53H(B[0;7mM-M(B[m Mac Format[54;105H(B[0;7mM-P(B[m Prepend[52;37H[53d[39;49m(B[m[J[1;202H(B[0;7m        [52;96H(B[m[1K (B[0;7m[ Wrote 15 lines ](B[m[K[54;211H[54;1H[?1049l[?1l>]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ sudo nano systemconfig1.sh[5Pbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ The operating system version,release number  :
+
+NAME="Ubuntu"
+VERSION="14.04.6 LTS, Trusty Tahr"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.04.6 LTS"
+VERSION_ID="14.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+
+ OPerating system kernel version              :
+
+4.4.0-87-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xc2
+cpu MHz		: 485.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs		:
+bogomips	: 3984.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xc2
+cpu MHz		: 494.218
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs		:
+bogomips	: 3984.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xc2
+cpu MHz		: 490.234
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs		:
+bogomips	: 3984.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xc2
+cpu MHz		: 486.640
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs		:
+bogomips	: 3984.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        8088940 kB
+MemFree:         6268320 kB
+MemAvailable:    6761152 kB
+Buffers:           92448 kB
+Cached:           764048 kB
+SwapCached:            0 kB
+Active:           929768 kB
+Inactive:         682480 kB
+Active(anon):     757508 kB
+Inactive(anon):   153756 kB
+Active(file):     172260 kB
+Inactive(file):   528724 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                40 kB
+Writeback:             0 kB
+AnonPages:        755788 kB
+Mapped:           391480 kB
+Shmem:            155508 kB
+Slab:              68176 kB
+SReclaimable:      34752 kB
+SUnreclaim:        33424 kB
+KernelStack:        9824 kB
+PageTables:        32052 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4044468 kB
+Committed_AS:    3871132 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    241664 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      130360 kB
+DirectMap2M:     2930688 kB
+DirectMap1G:     5242880 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G  4.0K  3.9G   1% /dev
+tmpfs           790M  1.8M  789M   1% /run
+/dev/sda6        62G   19G   40G  32% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            3.9G   56M  3.9G   2% /run/shm
+none            100M   52K  100M   1% /run/user
+
+ File system (Mounted)                        :
+
+/dev/sda6    on  /                         type  ext4             (rw,errors=remount-ro)
+proc         on  /proc                     type  proc             (rw,noexec,nosuid,nodev)
+sysfs        on  /sys                      type  sysfs            (rw,noexec,nosuid,nodev)
+none         on  /sys/fs/cgroup            type  tmpfs            (rw)
+none         on  /sys/fs/fuse/connections  type  fusectl          (rw)
+none         on  /sys/kernel/debug         type  debugfs          (rw)
+none         on  /sys/kernel/security      type  securityfs       (rw)
+udev         on  /dev                      type  devtmpfs         (rw,mode=0755)
+devpts       on  /dev/pts                  type  devpts           (rw,noexec,nosuid,gid=5,mode=0620)
+tmpfs        on  /run                      type  tmpfs            (rw,noexec,nosuid,size=10%,mode=0755)
+none         on  /run/lock                 type  tmpfs            (rw,noexec,nosuid,nodev,size=5242880)
+none         on  /run/shm                  type  tmpfs            (rw,nosuid,nodev)
+none         on  /run/user                 type  tmpfs            (rw,noexec,nosuid,nodev,size=104857600,mode=0755)
+none         on  /sys/fs/pstore            type  pstore           (rw)
+binfmt_misc  on  /proc/sys/fs/binfmt_misc  type  binfmt_misc      (rw,noexec,nosuid,nodev)
+systemd      on  /sys/fs/cgroup/systemd    type  cgroup           (rw,noexec,nosuid,nodev,none,name=systemd)
+gvfsd-fuse   on  /run/user/1000/gvfs       type  fuse.gvfsd-fuse  (rw,nosuid,nodev,user=user)
+]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ sudo cal.sh[K[K[K[K[K[K[K[K[K[K[Ksudo nano cal.sh
+[?1049h[1;54r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                                           File: cal.sh                                                                                                                            [52;100H[ New File ][53d^G(B[m Get Help[53;36H(B[0;7m^O(B[m WriteOut[53;71H(B[0;7m^R(B[m Read File[53;106H(B[0;7m^Y(B[m Prev Page[53;141H(B[0;7m^K(B[m Cut Text[53;176H(B[0;7m^C(B[m Cur Pos[54d(B[0;7m^X(B[m Exit[54;36H(B[0;7m^J(B[m Justify[54;71H(B[0;7m^W(B[m Where Is[54;106H(B[0;7m^V(B[m Next Page[54;141H(B[0;7m^U(B[m UnCut Text[54;176H(B[0;7m^T(B[m To Spell[3d[1;202H(B[0;7mModified[4;2H(B[msum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m - (B[0;1m[31m$n2(B[0m[32m`[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Difference = "[31m$sum(B[0m[32m;;[6d[39m(B[m3[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplicand"[7d(B[0m[32mread[39m(B[m n1[8d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplier"[9d(B[0m[32mread[39m(B[m n2[11d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$n2(B[0m[32m`[12d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Product = "[31m$sum(B[0m[32m;;[13d[39m(B[m4[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the dividend"[14d(B[0m[32mread[39m(B[m n1[15d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the divisor"[16d(B[0m[32mread[39m(B[m n2[17d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m / (B[0;1m[31m$n2(B[0m[32m`[18d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Quotient = "[31m$sum(B[0m[32m;;[19d[39m(B[m5[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the first number"[20d(B[0m[32mread[39m(B[m n1[21d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the second number"[22d(B[0m[32mread[39m(B[m n2[24d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m % (B[0;1m[31m$n2(B[0m[32m`[25d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Remainder = "[31m$sum(B[0m[32m;;[26d[39m(B[m*[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*****  INVALID  *****"(B[0m[32m;;[27desac[28d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"[29d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"[30d(B[0m[32mread[39m(B[m ch[31d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m][32dthen[33dexit[34dfi[35ddone[52d[39m(B[m[K[35;5H[36d[31;5H[A[24d[18d[12d[9d[6d[2;51r[2;1H[25T[1;54r[3;1H[36m#!/bin/bash[4d[39m(B[mclear[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"....MENU DRIVEN CALCULATOR...."[6d[39m(B[msum[32m=[39m(B[m0[7dch[32m=(B[0;1m[33m"y"[8d(B[0m[32mwhile[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m][9ddo[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"1. Addition"[11d[34mecho[39m(B[m (B[0;1m[33m"2. Subtraction"[12d[34mecho[39m(B[m (B[0;1m[33m"3. Multiplication"[13d[34mecho[39m(B[m (B[0;1m[33m"4. Division"[14d[34mecho[39m(B[m (B[0;1m[33m"5. Modulus"[15d[34mecho[39m(B[m (B[0;1m[33m"***** ENTER YOUR CHOICE *****"[16d(B[0m[32mread[39m(B[m choice[17d[32mcase[39m(B[m (B[0;1m[31m$choice[39m(B[m [32min[18d[39m(B[m1[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the  augend"[19d(B[0m[32mread[39m(B[m n1[20d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the addend"[21d(B[0m[32mread[39m(B[m n2[22d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m + (B[0;1m[31m$n2(B[0m[32m`[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Sum = "[31m$sum(B[0m[32m;;[24d[39m(B[m2[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the subrahend"[25d(B[0m[32mread[39m(B[m n1[26d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the minuend"[27d(B[0m[32mread[39m(B[m n2[25;5H[19d[13d[7d[13d[17d[19d[25d[29d[31d[37d[43d[49d[3;52r[52;1H[25S[1;54r[27;1H[32mesac[28d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"[29d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"[30d(B[0m[32mread[39m(B[m ch[31d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m][32dthen[33dexit[34dfi[35ddone[30d[39m(B[m[36d[30;5H[24d[18d[12d[6d[2;51r[2;1H[25T[1;54r[3;1H[36m#!/bin/bash[4d[39m(B[mclear[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"....MENU DRIVEN CALCULATOR...."[6d[39m(B[msum[32m=[39m(B[m0[7dch[32m=(B[0;1m[33m"y"[8d(B[0m[32mwhile[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m][9ddo[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"1. Addition"[11d[34mecho[39m(B[m (B[0;1m[33m"2. Subtraction"[12d[34mecho[39m(B[m (B[0;1m[33m"3. Multiplication"[13d[34mecho[39m(B[m (B[0;1m[33m"4. Division"[14d[34mecho[39m(B[m (B[0;1m[33m"5. Modulus"[15d[34mecho[39m(B[m (B[0;1m[33m"***** ENTER YOUR CHOICE *****"[16d(B[0m[32mread[39m(B[m choice[17d[32mcase[39m(B[m (B[0;1m[31m$choice[39m(B[m [32min[18d[39m(B[m1[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the  augend"[19d(B[0m[32mread[39m(B[m n1[20d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the addend"[21d(B[0m[32mread[39m(B[m n2[22d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m + (B[0;1m[31m$n2(B[0m[32m`[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Sum = "[31m$sum(B[0m[32m;;[24d[39m(B[m2[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the subrahend"[25d(B[0m[32mread[39m(B[m n1[26d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the minuend"[27d(B[0m[32mread[39m(B[m n2[25;5H[19d[13d[7d[3d[52d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                       [53;1H Y(B[m Yes[K[54d(B[0;7m N(B[m No  [54;17H(B[0;7m^C(B[m Cancel[K[52;62H(B[0;7mFile Name to Write: cal.sh                                  [53d^G(B[m Get Help[53;53H(B[0;7mM-D(B[m DOS Format[53;105H(B[0;7mM-A(B[m Append[53;157H(B[0;7mM-B(B[m Backup File[54d(B[0;7m^C(B[m Cancel[17G         [54;53H(B[0;7mM-M(B[m Mac Format[54;105H(B[0;7mM-P(B[m Prepend[52;27H[53d[39;49m(B[m[J[1;202H(B[0;7m        [52;96H(B[m[1K (B[0;7m[ Wrote 58 lines ](B[m[K[54;211H[54;1H[?1049l[?1l>]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ bash cal.sh
+[H[2J....MENU DRIVEN CALCULATOR....
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+1
+Enter the  augend
+7
+Enter the addend
+2
+Sum = 9
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+2
+Enter the subrahend
+9
+Enter the minuend
+3
+Difference = 6
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+4
+Enter the multiplier
+7
+Product = 28
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+4
+Enter the dividend
+6
+Enter the divisor
+3
+Quotient = 2
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+5
+Enter the first number
+6
+Enter the second number
+2 4
+Remainder = 2
+*********************************
+Do want to continue?(Y/N)
+n
+]0;user@user: ~/najeeb/1104user@user:~/najeeb/1104$ exit
+exit
+
+Script done on Saturday 11 April 2020 04:22:23 PM IST
