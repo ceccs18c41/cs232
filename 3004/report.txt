@@ -1,0 +1,44 @@
+CEC CS 18 C41     30-04-2020
+
+Najeeb
+
+private ip address: 192.168.225.255 
+public ip address: 137.97.159.77
+--------------------------------
+#1: Aim/task : LAMP stack(t8.3)
+---------------------------------
+LAMP Stack - Linux Apache MySQL PHP Stack
+--------------------------------- 
+
+                sudo apt-get update : To update all local packages 
+ 
+   		sudo apt-get install apache2 - To install apache2
+                
+		sudo service apache2 start - To start apache2 services
+
+		sudo apt-get install mysql-server - To install MySQL
+
+		sudo service mysql start - To start MySQL server
+		
+		sudo apt-get install libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear php-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl - To install PHP
+
+		sudo apt-get install phpmyadmin - to install phpmyadmin
+  
+                sudo nano /var/www/html/info.php - To test php processing on the web server
+                
+		sudo nano /var/www/html/index.php - To create a sample php page
+ 
+
+--------------------------------
+Output: 
+
+ php version info at page http://localhost/info.php 
+ 	screenshot: info.png 
+ 
+ php page can be viewed at http://localhost/index.php
+	screenshot: index.png
+
+-------------------
+Remarks if any:
+
+
